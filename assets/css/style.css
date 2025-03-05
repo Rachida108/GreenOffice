@@ -1,4 +1,93 @@
-* {
+ * {
     color: #2c4726;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap);
+}
+
+body, footer {
+    background: url(../images/fond.png), repeat;
+}
+
+main {
+    max-width: 750px;
+    margin:auto; 
+    background-color: #fff;
+}
+
+header {
+    background-color: #b8cb21;
+    max-width: 750px;
+    max-height: 150px;
+}
+
+nav {
+    display:flex;
+    width: 350px;
+    float: right;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-right: 20px;
+}  
+
+nav a {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+h2 {
+    font-size: 21px;
+    font-family: "Oswald", sans-serif;
+}
+
+section {
+    padding: 10px;
+}
+
+section img {
+    float:left;
+    padding: 10px;
+}
+
+section a {
+    display: block;
+    float:right;
+    width: fit-content;
+    height: fit-content;
+    padding:10px;
+    background-color: #b8cb21;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer img {
+    display: block;
+    margin: auto;
+}
+
+i {
+    color: #b8cb21;
+    margin-right: 10px;
+    font-size: 20px;
 }
